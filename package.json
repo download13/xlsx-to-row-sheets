@@ -1,6 +1,6 @@
 {
   "name": "xlsx-to-row-sheets",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Changes xlsx file contents into sheets, each of which is an array of rows",
   "main": "xlsx-to-row-sheets.js",
   "directories": {
