@@ -9,9 +9,9 @@ This package converts a buffer of an xlsx file into an object of sheets. Each sh
 ## Example
 
 ```javascript
-var xlsToRowSheets = require('xlsx-to-row-sheets');
+var xlsxToRowSheets = require('xlsx-to-row-sheets');
 
-var xlsxFileBuffer = fs.readFileSync('test.xlsx');
+var xlsxFileBuffer = require('fs').readFileSync('test.xlsx');
 
 xlsxToRowSheets(xlsxFileBuffer, function(err, sheets) {
 	// Sheets is an object mapping the sheet names to their row-array representations
